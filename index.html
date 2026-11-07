@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DG West Westlands · Independent Guide</title>
+<meta name="description" content="An independent guide to DG West on Sports Road, Westlands, Nairobi: 25 floors, 200 homes, floor plans redrawn to the sizes printed in the developer's brochure.">
+<meta property="og:title" content="DG West, Westlands · Independent Guide">
+<meta property="og:description" content="Floor plans, room sizes, amenities and location for DG West on Sports Road, Westlands, Nairobi.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1741991110666-88115e724741?w=1200&q=80">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top">DG West <span>Westlands</span></a>
+    <nav aria-label="Sections">
+      <a href="#residences">Residences</a>
+      <a href="#plans">Floor plans</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#location">Location</a>
+      <a href="#sources">Sources</a>
+    </nav>
+    <button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <a href="#residences">Residences</a><a href="#plans">Floor plans</a><a href="#amenities">Amenities</a><a href="#location">Location</a><a href="#sources">Sources</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <img class="hero-img" src="https://images.unsplash.com/photo-1741991110666-88115e724741?w=2400&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1741991110666-88115e724741?w=900&q=75&auto=format 900w, https://images.unsplash.com/photo-1741991110666-88115e724741?w=1600&q=80&auto=format 1600w, https://images.unsplash.com/photo-1741991110666-88115e724741?w=2400&q=80&auto=format 2400w" sizes="100vw" alt="Nairobi on a clear day: towers rising over tree-lined streets" fetchpriority="high">
+    <div class="hero-shade"></div>
+    <div class="wrap hero-copy">
+      <p class="eyebrow">Sports Road · Westlands · Nairobi</p>
+      <h1>Twenty-five floors above Westlands.</h1>
+      <p class="lede">DG West is a residential and hotel-apartment tower by Reportage Group: 200 homes, from 41 m² studios to 90 m² two-bedrooms, with an infinity pool, gym and spa on the 25th floor.</p>
+      <div class="cta"><a class="btn" href="#plans">See the floor plans</a><a class="btn ghost" href="#residences">Compare homes</a></div>
+    </div>
+    <p class="wrap hero-note">Photo of Nairobi for context. DG West itself is not yet complete, so this guide uses no pictures of the building.</p>
+  </section>
+
+  <section class="facts wrap" aria-label="Key facts">
+    <div><b>25</b><span>floors</span></div>
+    <div><b>200</b><span>homes</span></div>
+    <div><b>80 · 80 · 40</b><span>studios · one-bed · two-bed</span></div>
+    <div><b>1,335.5 m²</b><span>plot on Sports Road</span></div>
+    <div><b>L25</b><span>pool, gym &amp; spa</span></div>
+  </section>
+
+  <section class="section wrap" id="residences">
+    <header class="sec-head">
+      <p class="eyebrow">Residences · floors 5–24</p>
+      <h2>Three types of home, ten per floor.</h2>
+      <p>Every residential floor has the same layout: four studios, four one-bedrooms and two two-bedrooms, arranged in two mirrored wings around a lift core. The areas below are the developer's published figures.</p>
+    </header>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="section plans-sec" id="plans">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">Floor plans</p>
+        <h2>Drawn to the room sizes in the brochure.</h2>
+        <p>These plans are redrawn for this guide from the room dimensions printed on the developer's 5th–24th floor plans. Hover or tap a room for its size. The brochure itself notes its drawings are approximate and not to scale.</p>
+      </header>
+      <div class="tabs" role="tablist" aria-label="Plan">
+        <button role="tab" type="button" data-plan="floor" aria-selected="true">Typical floor</button>
+        <button role="tab" type="button" data-plan="studio" aria-selected="false">Studio</button>
+        <button role="tab" type="button" data-plan="one" aria-selected="false">One bedroom</button>
+        <button role="tab" type="button" data-plan="two" aria-selected="false">Two bedroom</button>
+      </div>
+      <div class="plan-wrap">
+        <figure class="plan" id="plan" aria-live="polite"></figure>
+        <aside class="plan-info" id="plan-info"></aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="amenities">
+    <header class="sec-head">
+      <p class="eyebrow">Amenities</p>
+      <h2>A rooftop floor for residents.</h2>
+      <p>The 25th-floor plan puts the open-air terrace on the south side and the enclosed rooms on the north side. A yoga garden sits on the roof above. Floors 3 and 4 hold the shared facilities below.</p>
+    </header>
+    <div class="amen">
+      <figure class="amen-photo big"><img loading="lazy" src="https://images.unsplash.com/photo-1688710921245-1dce2572a0d3?w=1600&q=80&auto=format&fit=crop" alt="An illuminated rooftop swimming pool above a city at night"><figcaption>Representative photo: rooftop pool at night.</figcaption></figure>
+      <div class="amen-list">
+        <h3>25th floor · open terrace</h3>
+        <ul><li>Infinity pool, about 11.8 × 3.8 m (measured off the plan)</li><li>Baby pool and jacuzzi</li><li>Bar area and terrace with built-in seating</li></ul>
+        <h3>25th floor · enclosed</h3>
+        <ul><li>Gym and Zumba studio</li><li>Women's and gents' spas, each with a massage room, steam room and sauna</li><li>Lockers and washrooms</li></ul>
+        <h3>Roof</h3>
+        <ul><li>Yoga garden with planters</li></ul>
+        <h3>Floors 3–4</h3>
+        <ul><li>Restaurant and residents' lounge</li><li>Co-working space and conference rooms</li><li>Salon and barber, pet day care, children's day care and play area</li></ul>
+        <h3>Building</h3>
+        <ul><li>24-hour concierge and reception, valet parking</li><li>Retail and convenience store in the tower</li><li>Fibre internet, double-glazed windows, built-in wardrobes</li></ul>
+      </div>
+      <figure class="amen-photo"><img loading="lazy" src="https://images.unsplash.com/photo-1671970922029-0430d2ae122c?w=1200&q=80&auto=format&fit=crop" alt="A gym with rows of weights and exercise machines"><figcaption>Representative photo: residents' gym.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section loc-sec" id="location">
+    <div class="wrap loc">
+      <header class="sec-head">
+        <p class="eyebrow">Location</p>
+        <h2>Sports Road, Westlands.</h2>
+        <p>Westlands is Nairobi's business and nightlife district, with embassies, international organisations and malls nearby. Drive times are the developer's own estimates.</p>
+        <table class="times"><tbody id="times"></tbody></table>
+      </header>
+      <div class="map">
+        <iframe title="Map of Sports Road, Westlands, Nairobi" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=36.7925%2C-1.2725%2C36.8185%2C-1.2545&amp;layer=mapnik&amp;marker=-1.2635%2C36.8052"></iframe>
+        <p class="map-note">The marker shows Sports Road, not the exact plot. <a href="https://www.openstreetmap.org/?mlat=-1.2635&amp;mlon=36.8052#map=16/-1.2635/36.8052" target="_blank" rel="noopener">Open a larger map</a></p>
+      </div>
+    </div>
+    <figure class="band"><img loading="lazy" src="https://images.unsplash.com/photo-1741991109902-98bf764fb35d?w=2400&q=80&auto=format&fit=crop" alt="Nairobi's skyline lit up at night"></figure>
+  </section>
+
+  <section class="section wrap" id="sources">
+    <header class="sec-head">
+      <p class="eyebrow">Sources</p>
+      <h2>Where every number comes from.</h2>
+    </header>
+    <div class="src-grid">
+      <div>
+        <h3>From the developer</h3>
+        <ul class="src">
+          <li><a href="https://reportagegroup.com/wp-content/uploads/DGWest-Brochure-Digital-Version-2.pdf" target="_blank" rel="noopener">DG West brochure (Reportage Group, PDF)</a>: floor plans for floors 5–24, unit areas, room dimensions and the 25th-floor plan.</li>
+          <li><a href="https://reportagegroup.com/wp-content/uploads/AFRICA_DGWEST_FACTSHEET_V3-1-1.pdf" target="_blank" rel="noopener">DG West factsheet (PDF)</a>: 25 floors, 200 units, plot area, amenities and drive times.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>About this guide</h3>
+        <ul class="src">
+          <li>This is an independent guide. It is not affiliated with Reportage Group. Confirm prices, availability and specifications with the developer.</li>
+          <li>The building is under construction, so no photographs of it exist yet. All photos here are real photographs of Nairobi and of similar interiors, from <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash</a>. None of them show DG West.</li>
+          <li>The plans are redrawn from the brochure's printed room sizes. Wall thicknesses, doors and the layout of the core are approximate.</li>
+          <li>Prices are not published in either document, so none are shown here.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in"><span>DG West Westlands · independent guide</span><span>Photos: Unsplash · Plans redrawn from the developer's brochure</span></div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
